@@ -3,7 +3,7 @@
 See demo of a working prototype in action:
 [![WizEye in Action](https://s3.amazonaws.com/uploads.hipchat.com/14144/131685/kbG9XtRzSFHuoY1/wizeye-screens.png)](https://vimeo.com/107752236)
 
-<p><a href="http://vimeo.com/107752236">WizEye</a> from <a href="http://vimeo.com/user10050288">Robert Sedov&scaron;ek</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<p><a href="http://vimeo.com/107752236">WizEye</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 ----------------------
 
