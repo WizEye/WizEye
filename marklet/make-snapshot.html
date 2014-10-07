@@ -1,0 +1,78 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="polymer-jsonp.html">
+<link rel="import" href="wizeye-configuration.html">
+
+<polymer-element name="make-snapshot" extends="paper-button" on-click="{{handleClick}}" >
+	<template>
+		<shadow></shadow>
+		<wizeye-configuration id="configuration"></wizeye-configuration>
+	</template>
+
+	<script>
+		Polymer('make-snapshot', 
+		{
+			config: 
+			{
+				//browsers in which screenshot will be made
+				requestedBrowsers: []
+			},
+
+			/*
+			* List of browsers that will be requested to make screenshots in
+			*/
+			browsers: 
+			[
+				{browserName: 'Mozilla', browserVersion: '30.0', platform: 'Windows', checked: true, isReferenceBrowser: false},
+				{browserName: 'Google Chrome', browserVersion: '35.0.1916.153', platform: 'OS X 10.9.4', checked: true, isReferenceBrowser: true}
+			],	
+
+			/*
+			* Filter browsers that are set in settings for request 
+			* (only those that are checked in settings)
+			*/
+			filterBrowsers: function()
+			{
+				var requested = [];
+
+				this.browsers.forEach(function(browser)
+				{
+					if (browser.checked === true)
+						requested.push(browser);
+				});
+
+				this.requestedBrowsers = requested;
+			},
+
+			/*
+			* Handle make a reference snapshot click
+			* call the comapre service and fire event when finished
+			* event is catched in wizeye-bookmarklet element where the data is populated to the screen
+			*/
+			handleClick: function(event, detail, sender)
+			{
+				this.filterBrowsers();
+				var params = {'url': this.$.configuration.snapshotUrl, 'requestedBrowsers': this.requestedBrowsers};
+				var that = this;
+
+				$.ajax(
+				{
+				    type : "POST",
+				    crossDomain: true,
+			        dataType: "json",
+				    url : this.$.configuration.serviceHost+this.$.configuration.makeSnasphots,
+				    data : params,
+				    success: function(response)
+				    {
+				    	console.log("response /makesnapshots: ");
+				    	console.log(response);
+
+				    	that.fire("snapshot-response", {data: response});
+
+				    }
+				});
+				
+
+			}
+		});
+	</script>
+</polymer-element>

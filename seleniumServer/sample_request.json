@@ -1,0 +1,331 @@
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .fourthcar.fourthcar-first' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .fourthcar.fourthcar-first .container' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .fourthcar.fourthcar-first .container .row' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .fourthcar.fourthcar-first .container .row .img-left' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .fourthcar.fourthcar-first .container .row .img-left > img' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .fourthcar.fourthcar-first .container .row .col-sm-8.col-sm-offset-4 col-md-7 col-md-offset-5' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .fourthcar.fourthcar-first .container .row .col-sm-8.col-sm-offset-4 col-md-7 col-md-offset-5 .agency' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .fourthcar.fourthcar-first .container .row .col-sm-8.col-sm-offset-4 col-md-7 col-md-offset-5 > p' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .fourthcar.fourthcar-first .container .row .col-sm-8.col-sm-offset-4 col-md-7 col-md-offset-5 > p > strong' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden #fourthcar-second.fourthcar.fourthcar-second' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden #fourthcar-second.fourthcar.fourthcar-second .container' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden #fourthcar-second.fourthcar.fourthcar-second .container .row' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden #fourthcar-second.fourthcar.fourthcar-second .container .row .img-left' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden #fourthcar-second.fourthcar.fourthcar-second .container .row .img-left > img' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden #fourthcar-second.fourthcar.fourthcar-second .container .row .col-sm-8.col-sm-offset-4 col-md-7 col-md-offset-5' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden #fourthcar-second.fourthcar.fourthcar-second .container .row .col-sm-8.col-sm-offset-4 col-md-7 col-md-offset-5 .agency' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden #fourthcar-second.fourthcar.fourthcar-second .container .row .col-sm-8.col-sm-offset-4 col-md-7 col-md-offset-5 > p' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden #fourthcar-second.fourthcar.fourthcar-second .container .row .col-sm-8.col-sm-offset-4 col-md-7 col-md-offset-5 > p > strong' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden #fourthcar-second.fourthcar.fourthcar-second .container .row .col-sm-8.col-sm-offset-4 col-md-7 col-md-offset-5 > p > a' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .fourthcar.fourthcar-third' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .fourthcar.fourthcar-third .container' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .fourthcar.fourthcar-third .container .row' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .fourthcar.fourthcar-third .container .row .img-left' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .fourthcar.fourthcar-third .container .row .img-left > img' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .fourthcar.fourthcar-third .container .row .col-sm-8.col-sm-offset-4 col-md-7 col-md-offset-5' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .fourthcar.fourthcar-third .container .row .col-sm-8.col-sm-offset-4 col-md-7 col-md-offset-5 .agency' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .fourthcar.fourthcar-third .container .row .col-sm-8.col-sm-offset-4 col-md-7 col-md-offset-5 > p' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .fourthcar.fourthcar-third .container .row .col-sm-8.col-sm-offset-4 col-md-7 col-md-offset-5 > p > strong' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .fourthcar.fourthcar-third .container .row .col-sm-8.col-sm-offset-4 col-md-7 col-md-offset-5 > p > a' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden #tabletfourth.fourthcar.fourthcar-fourth' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden #tabletfourth.fourthcar.fourthcar-fourth .container' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden #tabletfourth.fourthcar.fourthcar-fourth .container .row' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden #tabletfourth.fourthcar.fourthcar-fourth .container .row .img-left' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden #tabletfourth.fourthcar.fourthcar-fourth .container .row .img-left > img' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden #tabletfourth.fourthcar.fourthcar-fourth .container .row .col-sm-8.col-sm-offset-4 col-md-7 col-md-offset-5' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden #tabletfourth.fourthcar.fourthcar-fourth .container .row .col-sm-8.col-sm-offset-4 col-md-7 col-md-offset-5 .agency' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden #tabletfourth.fourthcar.fourthcar-fourth .container .row .col-sm-8.col-sm-offset-4 col-md-7 col-md-offset-5 > p' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden #tabletfourth.fourthcar.fourthcar-fourth .container .row .col-sm-8.col-sm-offset-4 col-md-7 col-md-offset-5 > p > strong' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .row.slide-between downer' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .row.slide-between downer .col-md-12' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .row.slide-between downer .col-md-12 .godown.gosecond' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fourth.row.slide slide-fourth .col-md-12 .tabletfourthcontainer.visible-sm visible-md visible-lg hidden .row.slide-between downer .col-md-12 .downtriangle' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide-between mobilecustomvisible downer downer2 hidden-lg hidden-md hidden-sm' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide-between mobilecustomvisible downer downer2 hidden-lg hidden-md hidden-sm .col-md-12' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide-between mobilecustomvisible downer downer2 hidden-lg hidden-md hidden-sm .col-md-12 .godown.gosecond' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide-between mobilecustomvisible downer downer2 hidden-lg hidden-md hidden-sm .col-md-12 .downtriangle' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth > h1' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth .mobilep' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth #title0.titleinput' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth #text0' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth #title1.titleinput' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth #text1' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth #title2.titleinput' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth #text2' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth #title3.titleinput' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth #text3' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth #title4.titleinput' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth #text4' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth .carcontainer' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth .carcontainer .item.focus item-0' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth .carcontainer .item.focus item-0 .img-responsive' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth .carcontainer .item.right item-1' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth .carcontainer .item.right item-1 .img-responsive' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth .carcontainer .item.rightr item-2' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth .carcontainer .item.rightr item-2 .img-responsive' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth .carcontainer .item.leftr item-3' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth .carcontainer .item.leftr item-3 .img-responsive' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth .carcontainer .item.left item-4' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth .carcontainer .item.left item-4 .img-responsive' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth .carcounter' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth .carcounter .circle.circle-0 full' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth .carcounter .circle.circle-1' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth .carcounter .circle.circle-2' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth .carcounter .circle.circle-3' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container #slide-fifth.row.slide slide-fifth .carcounter .circle.circle-4' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .stretchycontainer.hidden-xs hidden-sm' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .stretchycontainer.hidden-xs hidden-sm .stretchy.open integrated' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .stretchycontainer.hidden-xs hidden-sm .stretchy.open integrated > h1' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .stretchycontainer.hidden-xs hidden-sm .stretchy.open integrated > h1 > span' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .stretchycontainer.hidden-xs hidden-sm .stretchy.open integrated > p' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .stretchycontainer.hidden-xs hidden-sm .stretchy.scalable' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .stretchycontainer.hidden-xs hidden-sm .stretchy.scalable > h1' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .stretchycontainer.hidden-xs hidden-sm .stretchy.scalable > h1 > span' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .stretchycontainer.hidden-xs hidden-sm .stretchy.scalable > p' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .stretchycontainer.hidden-xs hidden-sm .stretchy.smart' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .stretchycontainer.hidden-xs hidden-sm .stretchy.smart > h1' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .stretchycontainer.hidden-xs hidden-sm .stretchy.smart > h1 > span' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .stretchycontainer.hidden-xs hidden-sm .stretchy.smart > p' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .mobilestretchycontainer.visible-xs visible-sm' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .mobilestretchycontainer.visible-xs visible-sm .stretchy.open integrated' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .mobilestretchycontainer.visible-xs visible-sm .stretchy.open integrated > h1' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .mobilestretchycontainer.visible-xs visible-sm .stretchy.open integrated > h1 > span' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .mobilestretchycontainer.visible-xs visible-sm .stretchy.open integrated > p' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .mobilestretchycontainer.visible-xs visible-sm .stretchy.scalable' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .mobilestretchycontainer.visible-xs visible-sm .stretchy.scalable > h1' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .mobilestretchycontainer.visible-xs visible-sm .stretchy.scalable > h1 > span' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .mobilestretchycontainer.visible-xs visible-sm .stretchy.scalable > p' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .mobilestretchycontainer.visible-xs visible-sm .stretchy.smart' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .mobilestretchycontainer.visible-xs visible-sm .stretchy.smart > h1' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .mobilestretchycontainer.visible-xs visible-sm .stretchy.smart > h1 > span' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.slide slide-sixth hidden .col-md-12 .container .row .col-md-12 .mobilestretchycontainer.visible-xs visible-sm .stretchy.smart > p' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-md-6.padright' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-md-6.padright > a' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-md-6.padright > a .footertitle' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-md-6.padright > a .img-responsive.img-footer visible-md visible-lg' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-md-6.padright .footerdate' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-md-6.padright > a .footersubtitle.equalizeme' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row.visible-md visible-lg' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row.visible-md visible-lg .col-md-12' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row.visible-md visible-lg .col-md-12 .footerline.footerline-up' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-md-12' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-md-12 .footernews' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-md-12 .footernews .footertitle' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-md-12 .footerdate' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-md-12 .title' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-md-12 .title .footersubtitle.nobottom' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright .footertitle.formtitle' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright #theform' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright #theform #contact_first_name' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright #theform #contact_last_name' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright #theform #contact_company' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright #theform #contact_email' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright #theform .icheckfix.hidden' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright #theform #mailing.icheck' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright #theform > label' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright #theform #type' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright #theform #send' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright #theform #contact_phone' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright #theform #contact_country' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright #theform #contact_state' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright #theform #contact_hear' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright #theform #contact_comments' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright #theform #contact_news' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright .success' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright .success > p' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padright .success > p .refresh' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padleft' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padleft .socialcontainer' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padleft .socialcontainer .footertitle' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padleft .socialcontainer .social.fb' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.row-footer .container.footercontainer .row .col-md-6 .row .col-sm-6.padleft .socialcontainer .social.tw' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.underfooter' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.underfooter .container.footercontainer' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.underfooter .container.footercontainer .row' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.underfooter .container.footercontainer .row .col-md-12' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.underfooter .container.footercontainer .row .col-md-12 .footerline.hidden-xs' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.underfooter .container.footercontainer .row .col-md-12 > a' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .row.underfooter .container.footercontainer .row .col-md-12 .pull-right' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container .istablet' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container > script' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container > style' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container > div' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }
+{ selector: ' #skrollr-body.full-container > div > script' }
+{ x: 0, y: 100, width: 1011, height: 3785, fail: true }

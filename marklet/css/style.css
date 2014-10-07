@@ -1,0 +1,40 @@
+html,body {
+  height: 100%;
+  margin: 0;
+  background-color: #E5E5E5;
+  font-family: 'RobotoDraft', sans-serif;
+}
+core-header-panel {
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch; 
+}
+core-toolbar {
+  background: #03a9f4;
+  color: white;
+}
+.container {
+  width: 98%;
+  margin: 10px auto;
+}
+h1,h2,h3{
+  font-weight: 300;
+}
+h1{
+  font-size: 22px;
+  overflow: hidden;
+}
+#control-panel{
+  margin: 5px 0 30px 0;
+}
+.button{
+  border: solid 1px #015174;
+  border-radius: 0;
+  color: #015174;
+  margin-left: 10px;
+}
+.button-group{
+  margin-left: 0;
+  color: #F61C3B;
+  border: solid 1px #F61C3B;
+}

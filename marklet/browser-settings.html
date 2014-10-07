@@ -1,0 +1,55 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/paper-checkbox/paper-checkbox.html"> 
+<link rel="import" href="bower_components/core-localstorage/core-localstorage.html">
+<link rel="import" href="storage-model.html">
+
+<polymer-element name="browser-settings">
+	<template>	
+		<style>
+			#content{
+				margin-bottom: 15px;
+				border-bottom: solid 1px #ddd;
+				padding-bottom: 15px;
+			}
+			h3{
+				font-weight: 300;
+				margin: 0;
+			}
+		</style>
+
+		<storage-model id="storage" storage={{browsers}}></storage-model>
+		
+		<template repeat="{{ browser in browsers }}">
+
+	    	<div id="content" horizontal layout>
+		    	<h3 flex>{{ browser.name }}</h3>
+				<paper-checkbox id="check" on-click="{{checkboxChanged}}" checked="{{browser.checked}}" desc="{{browser.desc}}" name="{{browser.name}}"></paper-checkbox>
+			</div>
+
+		</template>
+
+	</template>
+	<script>
+	Polymer('browser-settings',
+	{
+		ready: function()
+		{
+		},
+
+		//hande change of a browser setting
+		checkboxChanged: function(event)
+		{
+			var selected = event.target;
+			var notSelected = selected.getAttribute("aria-checked");
+			var browserName = selected.getAttribute("name");
+
+			if (notSelected)
+				this.$.storage.removeBrowser(browserName);
+			else
+				this.$.storage.addBrowser(browserName);
+		}
+	});
+	</script>
+
+</polymer-element>
+

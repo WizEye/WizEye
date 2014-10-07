@@ -1,0 +1,4 @@
+*~
+*.DS_Store
+/service/node_modules/*
+/service/public/snapshots/*

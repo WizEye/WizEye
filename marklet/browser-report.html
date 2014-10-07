@@ -1,0 +1,160 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/paper-checkbox/paper-checkbox.html">
+<link rel="import" href="bower_components/paper-shadow/paper-shadow.html">
+<link rel="import" href="bower_components/paper-button/paper-button.html">
+<link rel="import" href="bower_components/paper-toast/paper-toast.html">
+<link rel="import" href="wizeye-configuration.html">
+
+<polymer-element name="browser-report" attributes="reportData" cross-fade>
+    <template>
+        <style>
+
+        h1,h2,h3{
+            margin: 0 0 10px 0;
+            font-weight: 300;
+        }
+        p{
+            margin: 5px 0;
+        }
+        span{
+            font-weight: 100;
+
+        }
+        img{
+            height: 140px;
+            width: 293px;
+            transition: .5s;
+            cursor: pointer;
+        }
+        #wraper{
+            padding: 10px;font-family: 'RobotoDraft', sans-serif;
+            font-weight: 300;
+            margin: 10px 0;
+            background-color: #efefef;
+        }
+        .button-zoom{
+            padding: 0px;
+            border-radius: 0;
+            color: #5a5f5a;
+            float: right;
+            margin-top: 35px;
+            margin-right: -25px;
+        }
+        #content{
+            margin-left: 10px;
+        }
+        #control{
+            width: 100px;
+        }
+        #confirmToast{
+        }
+        #confirmedToast span{
+            margin: 0 auto;
+            display: block;
+        }
+
+        </style>
+
+        <div id="wraper">
+            <paper-shadow z="1">
+                <div horizontal layout>
+                    <img id="reportPicture" on-click="{{newTabImage}}" src="{{serviceHost}}/snapshots/{{reportData.imagePath}}" alt="">
+                    
+                    <div id="content" vertical flex>
+                        <h2>{{reportData.browserName}}</h2>
+                        <p><span>browser version: </span>{{reportData.browserVersion}}</p>
+                        <p><span>browser platform: </span>{{reportData.platform}}</p>
+                        <!-- <p><span>missmatch percent: </span> 5.8 %</p> -->
+                        <paper-button icon="search" class="button-zoom" role="button" on-click="{{zoom}}"></paper-button>
+                    </div>
+                    <paper-checkbox id="confirmBrowser" on-click="{{confirm}}" checked="{{browserChecked}}"</paper-checkbox>
+                </div>
+            </paper-shadow>
+        </div>
+
+        <paper-toast id="confirmToast">
+            <span>Browser {{reportData.browserName}} {{reportData.browserVersion}} has been updated.</span>
+            <span style="color: #eeff41;">{{browserState}}</span>
+        </paper-toast>
+
+        <wizeye-configuration id="configuration"></wizeye-configuration>    
+    </template>
+
+  <script>
+    Polymer('browser-report', 
+    {
+        zoomToogle: false,
+        serviceHost: '',
+
+        ready: function()
+        {
+            this.serviceHost = this.$.configuration.serviceHost;
+        },
+
+        /*
+        * Zoom the reported image
+        */
+        zoom: function()
+        {
+            //zoom in the report picture
+            if (this.zoomToogle)
+            {
+                this.zoomToogle = false;
+                this.$.reportPicture.style.height = '140px';
+                this.$.reportPicture.style.width = '293px';
+            }
+            //zoom out the report picture
+            else
+            {
+                this.zoomToogle = true;
+                this.$.reportPicture.style.width = '794px';
+                this.$.reportPicture.style.height = '380px';
+                
+            }
+        },
+
+        newTabImage: function()
+        {
+            var tab = window.open(this.serviceHost+'/snapshots/'+this.reportData.imagePath, '_blank');
+            tab.focus();
+        },
+
+        /*
+        * Confirm the browser for referencing
+        */
+        confirm: function()
+        {
+            console.log("request /confirmsnapshot");
+            var that = this;
+
+            data = {
+                id: this.reportData._id,
+                checked: !this.browserChecked
+            };
+
+            $.ajax(
+            {
+                type : "POST",
+                crossDomain: true,
+                dataType: "json",
+                url : this.$.configuration.serviceHost + this.$.configuration.confirmSnapshot,
+                data : data,
+
+                success: function(response)
+                {
+                    if (!that.browserChecked)
+                        that.browserState = "removed";
+                    else
+                        that.browserState = "confirmed";
+
+                    that.$.confirmToast.show();
+
+                    console.log("response /confirmsnapshot: ");
+                    console.log(response);
+                }
+            });
+        }
+
+    });
+  </script>
+</polymer-element>

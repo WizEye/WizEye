@@ -1,0 +1,48 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="polymer-jsonp.html">
+
+<polymer-element name="compare-screenshots" extends="paper-button" on-click="{{handleClick}}" >
+	<template>
+		<shadow></shadow>
+	</template>
+
+	<script>
+		Polymer('compare-screenshots', 
+		{
+			config: 
+			{
+				//address of the comparator service
+				host: 'http://192.168.1.204:3000',
+				compare: '/compare',
+				confirmSnapshot: '/confirmsnapshot',
+
+			},
+
+			/*
+			* Handle make a compare click
+			* call the comapre service and fire event when finished
+			* event is catched in wizeye-bookmarklet element where the data is populated to the screen
+			*/
+			handleClick: function(event, detail, sender)
+			{
+				var that = this;
+
+				$.ajax(
+				{
+				    type : "POST",
+				    crossDomain: true,
+			        dataType: "json",
+				    url : this.config.host+this.config.compare,
+				    
+				    success: function(response)
+				    {
+				    	console.log("response /compare");
+				    	console.log(response);
+				    	that.fire("compare-response", {data: response});
+				    }
+				});
+			}
+
+		});
+	</script>
+</polymer-element>

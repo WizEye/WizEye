@@ -1,0 +1,59 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<polymer-element name="storage-model" attributes="storage">
+	<script>
+		Polymer('storage-model', 
+		{
+			config: {storageId: "wizeye"},
+			storage: {},
+
+			ready: function()
+			{
+				this.storage = localStorage.getItem(this.config.storageId);
+			},
+
+			//add browsers from settings
+			removeBrowser: function(browserName)
+			{
+				for (browser in this.browsers)
+				{
+					if (browser.name === browserName)
+						browser.checked = false;
+
+					localStorage.setItem("wizeye", JSON.stringify(this.browsers));
+				}
+			},
+
+			//remove browser from settings
+			addBrowser: function(browserName)
+			{
+				for (browser in this.browsers)
+				{
+					if (browser.name === browserName)
+						browser.checked = true;
+
+					localStorage.setItem("wizeye", JSON.stringify(this.browsers));
+				}
+			},
+
+			isLoggedIn: function()
+			{
+				 if (sessionStorage.getItem("username"))
+				 	return true;
+				 else
+				 	return false;
+			},
+
+			login: function(username)
+			{
+				sessionStorage.setItem("username", username);
+			},
+
+			getUsername: function()	
+			{
+				return sessionStorage.getItem("username");
+			}
+
+	 	});
+	</script>
+</polymer-element>

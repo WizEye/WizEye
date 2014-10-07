@@ -1,0 +1,28 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<polymer-element name="wizeye-configuration">
+	<script>
+	Polymer({
+
+		/*
+		* This is the global configuration for the wizeye bookmarklet
+		*/
+		publish: 
+		{
+			//address of the comparator service
+			serviceHost: 'http://192.168.1.204:3000',
+
+			//routes
+			compare: '/compare',
+			makeSnasphots: "/makesnapshots",
+			getSnapshots: '/getsnapshotsforconfirmation',
+			confirmSnapshot: '/confirmsnapshot',
+
+			//url of the tested page
+			snapshotUrl: 'https://www.google.com',
+
+		}
+
+	});
+	</script>
+</polymer-element>	

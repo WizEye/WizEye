@@ -1,0 +1,59 @@
+	
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/core-menu-button/core-menu-button.html">
+<link rel="import" href="bower_components/core-item/core-item.html">
+<link rel="import" href="bower_components/paper-button/paper-button.html">
+<link rel="import" href="bower_components/core-overlay/core-overlay.html">
+
+<link rel="import" href="browser-settings.html">
+
+<polymer-element name="settings-menu">
+    <template>
+    	
+        <core-menu-button id="settings-menu" halign="right" icon="menu">
+    		<core-item id="browserButton" on-click="{{browserSettings}}" icon="settings" label="Settings"></core-item>
+		</core-menu-button>
+
+		<core-overlay id="browserDialog" backdrop layered>
+			<style>
+				#browserDialog{
+					background-color: #eee;
+					padding: 10px;
+					width: 50%;
+				}
+				h4{
+					font-weight: 400;
+					margin-bottom: 40px;
+				}
+				paper-button{
+					border: solid 1px green;
+					border-radius: 0px;
+					float: right;
+					margin-top: 30px;
+					width: 100px;
+				}
+			</style>
+
+			<h4>Select browsers to make screenshots with:</h4>
+
+			<div vertical>
+				<browser-settings></browser-settings>
+			</div>
+
+			<paper-button core-overlay-toggle class="button" label="save"></paper-button>
+		</core-overlay>
+
+    </template>
+
+  <script>
+    Polymer('settings-menu', 
+    {
+        created: function(){},
+        browserSettings: function()
+        {
+        	this.$.browserDialog.open();
+        }
+    });
+  </script>
+</polymer-element>
+

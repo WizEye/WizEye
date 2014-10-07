@@ -1,0 +1,232 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="import" href="bower_components/core-header-panel/core-header-panel.html">
+<link rel="import" href="bower_components/core-toolbar/core-toolbar.html">
+<link rel="import" href="bower_components/core-pages/core-pages.html">    
+<link rel="import" href="bower_components/paper-input/paper-input.html">
+<link rel="import" href="bower_components/paper-button/paper-button.html">
+<link rel="import" href="bower_components/paper-checkbox/paper-checkbox.html">
+<link rel="import" href="bower_components/paper-shadow/paper-shadow.html">
+<link rel="import" href="bower_components/paper-fab/paper-fab.html">
+
+
+<link rel="import" href="browser-report.html">
+<link rel="import" href="make-snapshot.html">
+<link rel="import" href="settings-menu.html">
+<link rel="import" href="compare-screenshots.html">
+<link rel="import" href="wizeye-configuration.html">
+<link rel="import" href="storage-model.html">
+
+<polymer-element name="wizeye-bookmarklet">
+    <template>
+    <style>
+        html,body {
+          height: 100%;
+          margin: 0;
+          background-color: #E5E5E5;
+          font-family: 'RobotoDraft', sans-serif;
+        }
+        core-header-panel {
+          height: 100%;
+          overflow: auto;
+          -webkit-overflow-scrolling: touch; 
+        }
+        core-toolbar {
+          background: #547980;
+          color: white;
+        }
+        .container {
+          width: 98%;
+          margin: 10px auto;
+        }
+        .snapshotUrl{
+            font-weight: 100;
+        }
+        h1,h2,h3{
+          font-weight: 300;
+        }
+        h1{
+          font-size: 22px;
+          overflow: hidden;
+        }
+        #control-panel{
+          margin: 5px 0 10px 0;
+        }
+        #dataStatus{
+            display: block;
+            margin-top: 200px;
+            width: 100%;
+            text-align: center;
+            color: #999;
+            font-weight: 300;
+        }
+        .button{
+          border: solid 1px #015174;
+          border-radius: 0;
+          color: #015174;
+          margin-left: 10px;
+        }
+        .button-group{
+          margin-left: 0;
+          color: #999;
+          font-weight: 300;
+          border: solid 1px #999;
+        }
+        .login-card{
+            width: 340px;
+            height: 300px;
+            margin: 100px auto;
+            padding: 10px 0px 10px 20px;
+            background: white;
+        }
+        .login-card--header{
+            height: 30px;
+            background-color: #03a9f4;
+            color: white;
+        }
+        .login-icon{
+            border-radius: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            color: #547980;
+            background-color: #E5FCC2;
+
+        }
+        #loginButton{
+            background-color: #9DE0AD;
+            color: white;
+            float: right;
+            margin: 10px 20px 0 0;
+        }
+
+
+    </style>
+
+        <core-header-panel>
+            <core-toolbar>
+                <core-icon src="http://g.etfv.co/http://{{faviconUrl}}"></core-icon>
+                <h1 class='snapshotUrl' flex="">{{snapshotUrl}}</h1>
+
+                <settings-menu></settings-menu>
+            </core-toolbar>
+
+            <div class="container" layout vertical> 
+
+            <core-pages id="page" class="fancy" selected="{{selectedPage}}"> 
+                
+                <!-- LOGIN PAGE -->
+                <div class="one">
+                    <div class="login-card">
+                        <paper-shadow z="1"></paper-shadow> 
+                        <core-icon icon="account-circle" class="login-icon"></core-icon>
+                        <h2 style="float: right; margin-right: 145px; margin-top: 22px">Demo Login</h2>
+
+                        <paper-input floatinglabel="" label="Username" layout="" vertical="" value="{{username}}"></paper-input>
+                        <paper-input floatinglabel="" type="password" label="Password" layout="" vertical=""></paper-input>
+
+                        <paper-fab icon="arrow-forward" on-click="{{login}}" role="button" tabindex="0" aria-label="arrow-forward" id="loginButton"></paper-fab>
+                    </div>
+                </div>
+
+                <!-- BOOKMARKLET PAGE -->
+                <div class="two">
+                  <div horizontal layout id="control-panel">  
+                      <div layout horizontal flex>
+                          <paper-button icon="account-circle" class="button button-group" role="button" label="#{{username}}"></paper-button>
+                      </div>
+                      <div layout horizontal end-justified>
+                          <make-snapshot class="button" label="Make a reference snapshot" role="button"></make-snapshot>
+                          <compare-screenshots class="button" label="Compare" role="button"></compare-screenshots>            
+                      </div>
+                  </div>
+                  
+                  <template bind if="{{ noData }}">
+                      <span id="dataStatus">There is no data to show. Make a first <u>reference snapshot</u> or <u>compare</u> to older ones.</span>  
+                  </template>
+
+                  <div id="report-wraper">
+                  <template repeat="{{report in reports}}">
+                      <browser-report reportData={{report}}></browser-report>
+                  </template>
+                  </div>         
+                </div>
+
+            </core-pages>
+
+           </div>
+
+
+        </core-header-panel>    
+
+        <wizeye-configuration id="configuration"></wizeye-configuration>
+        <storage-model id="storage"></storage-model>
+    </template>
+
+    <script>
+    Polymer('wizeye-bookmarklet', 
+    {
+        reports: {},
+        snapshotUrl: '',
+        faviconUrl: '',
+        noData: true,
+        username: '',
+
+        ready: function()
+        {
+            //check if logged in and navigate
+            if (this.$.storage.isLoggedIn())
+            {
+                this.navigateIndex();
+                this.username = this.$.storage.getUsername();
+            }
+            else
+                this.navigateLogin();
+
+            //on make snapshot button clicked handle event
+            this.addEventListener('snapshot-response', function(e) 
+            {
+                this.snapshotsReceived(e.detail)
+            });
+
+            //on make compares button clicked handle event
+            this.addEventListener('compare-response', function(e) 
+            {
+                this.snapshotsReceived(e.detail)
+            });
+
+            this.snapshotUrl = this.$.configuration.snapshotUrl;
+            var protomatch = /^(https?|ftp):\/\//;
+            this.faviconUrl = this.$.configuration.snapshotUrl.replace(protomatch, '');
+
+        },
+
+        login: function()
+        {
+            this.navigateIndex();
+            this.$.storage.login(this.username);
+        },
+
+        snapshotsReceived: function(response)
+        {
+            //if data to show hide the title
+            this.noData = false;
+
+            var snapshots = response.data.status.change.browserSnapshots;
+            this.reports = snapshots;
+        },
+
+        navigateIndex: function()
+        {
+            this.selectedPage = 1;
+        },
+
+        navigateLogin: function()
+        {
+            this.selectedPage = 0;
+        },
+
+    });
+    </script>
+</polymer-element>
