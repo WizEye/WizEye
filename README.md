@@ -5,14 +5,11 @@ See demo of a working prototype in action:
 
 ----------------------
 
-- **Create the design you want**
-
+- **Create the design you want**  
 When you’re satisfied, “click”
-- **Ensure consistency across browsers**
-
+- **Ensure consistency across browsers**  
 Mark diffs and store them to the system
-- **Trust WizEye to keep an eye on**
-
+- **Trust WizEye to keep an eye on**  
 Run it manually, on commits, on build time, with tests, etc.
 
 ----------------------
